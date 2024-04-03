@@ -1,1 +1,29 @@
-Arquivo qualquer.
+- sudo apt install git
+
+# Configuração inicial do git
+
+- git init
+vai inicializar um repositório vazio dentro da pasta do nosso projeto.
+
+Se nunca fizemos isso, devemos configurar o usuário e e-mail.
+
+- git config --global user.name "Nailson Rocha"
+- git config --global user.email "nailsonrochadev@gmail.com"
+- git remote add origin git@github.com:URL-COPIADA-DO-GIT
+
+# Editei o projeto # Sempre que editar algum arquivo
+
+- git add . (os arquivos que você editou ou, ponto, pra tudo)
+- git commit -m "mensagem"
+- git push origin master
+
+# CHAVES SSH
+
+- ssh-keygen -t rsa -C "nailsonrochadev@gmail.com"
+- cat ~/.ssh/id_rsa.pub
+
+
+
+
+
+
