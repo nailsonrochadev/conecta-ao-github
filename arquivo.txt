@@ -16,6 +16,7 @@ Se nunca fizemos isso, devemos configurar o usuário e e-mail.
 - git add . (os arquivos que você editou ou, ponto, pra tudo)
 - git commit -m "mensagem"
 - git push origin master
+- git push origin master -u "Da próxima vez colocar o -u para usar somente git push"
 
 # CHAVES SSH
 
